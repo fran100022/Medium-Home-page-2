@@ -1,0 +1,167 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Charter;
+    src: url(../fonts/Agbalumo-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    color: #fff;
+
+}
+
+.logo
+{scale: 0.5;
+align-items:center;
+display: flex;
+justify-content: left;
+}
+
+body {
+    font-family: initial;
+    font-family: roboto;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.container {
+    max-width: 1336px;
+    margin: 0 auto;
+    display: block;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 50px 0px;
+}
+
+.articles-side {
+    min-width: 728px;
+    max-width: 728px;
+    flex: 1 1 auto;
+}
+
+.author-details,
+.article-content {
+    display: flex;
+}
+
+.left-article-title {
+    font-family: Charter;
+    font-size: 16px;
+}
+
+article {
+    border-bottom: 1px solid #ededed;
+    padding-top: 30px;
+}
+
+.more-articles {
+    padding-top: 30px;
+}
+
+.profile-image {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.article-content {
+    margin-top: 12px;
+}
+
+.article-detail {
+    -webkit-line-clamp: 3;
+    max-height: 72px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    line-height: 24px;
+}
+
+.article-image {
+    margin-left: 60px;
+}
+
+.article-heading h2 {
+    margin-bottom: 4px;
+    color: black;
+    font-family: Charter;
+}
+
+.images {
+    display: flex;
+}
+
+.images img {
+    width: 25px;
+    margin-right: 5px;
+}
+
+.article-more-details {
+    padding: 32px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.article-category {
+    display: flex;
+    align-items: center;
+}
+
+.category {
+    background-color: #F2F2F2;
+    color: black;
+    padding: 5px;
+    border-radius: 16px;
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+.min-read,
+.author-name {
+    font-size: 13px;
+}
+
+.author-name {
+    font-weight: 700;
+}
+
+.staff {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.overview-side {
+    min-height: 368px;
+    max-width: 368px;
+    display: block;
+    padding-left: clamp(24px, 24px + 100vw - 1080px, 40px);
+}
+
+
